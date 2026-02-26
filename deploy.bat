@@ -43,8 +43,8 @@ if errorlevel 1 (
     echo.
     echo [提示] 若推送失败，请检查：
     echo   1. 已登录 GitHub 或在浏览器中完成认证
-    echo   2. 仓库 https://github.com/longchen970503-cyber/alvocab 已创建
-    echo   3. 使用 HTTPS 时可能需要个人访问令牌（Token）
+    echo   2. 仓库已创建 https://github.com/longchen970503-cyber/alvocab
+    echo   3. 使用 HTTPS 时可能需要个人访问令牌 Token
     echo.
     pause
     exit /b 1
