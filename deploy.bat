@@ -6,6 +6,7 @@ echo ========================================
 echo.
 
 cd /d "%~dp0"
+set "PATH=D:\Git\cmd;%PATH%"
 
 git --version >nul 2>&1
 if errorlevel 1 (
@@ -21,7 +22,7 @@ if not exist ".git" (
 )
 
 echo 正在添加所有文件...
-git add index.html math.html physics.html chemistry.html economics.html css js
+git add .
 
 echo 正在提交...
 git commit -m "Deploy IGCSE A-Level vocabulary site" 2>nul || git commit -m "Update vocabulary site" 2>nul
